@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Thuc_hanh_1 from './Thuc_hanh_1';
+import Thuc_hanh_2 from './Thuc_hanh_2';
+import Thuc_hanh_3 from './Thuc_hanh_3';
+import Thuc_hanh_4 from './Thuc_hanh_4';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Thực hành 1</h2>
+        <Thuc_hanh_1></Thuc_hanh_1>
+        <div>---------------------------------------------</div>
+      <h2>Thực hành 2</h2>
+        <Thuc_hanh_2 />
+        <div>---------------------------------------------</div>
+      <h2>Thực hành 3</h2>
+        <Thuc_hanh_3 />
+        <div>---------------------------------------------</div>
+      <h2>Thực hành 4</h2>
+        <Thuc_hanh_4 />
     </div>
   );
 }
